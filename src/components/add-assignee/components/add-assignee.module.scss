@@ -1,0 +1,39 @@
+// i want to create flex based styles for a form that will be used in a bus card
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+    align-self: stretch;
+  
+    .bus-date-picker {
+      display: flex !important;
+    }
+  }
+  
+  .form-row.multi-field-row {
+      flex-direction: row;
+  }
+  
+  // i need gaps between columns of 1% width
+  // .form-col-6 {
+  //     display: flex;
+  //     flex-direction: column;
+  //     justify-content: center;
+  //     align-items: center;
+  //     width: 49%;
+  //     height: 100%;
+  //     margin: 0 1%;
+  // }
+  
+  
